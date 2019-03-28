@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#00BCD4</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="notification">#DC4D29</color>
+    <color name="backgroundHeader">#4272C5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundNav">#244073</color>
+    <color name="backgroundBooking">#244073</color>
+    <color name="xanh">#39C260</color>
+    <color name="star">#315DB3</color>
+    <color name="xanhc">#6e82e5</color>
+    <color name="ke">#ced3d7</color>
+    <color name="den">#404040</color>
+    <color name="xanh111">#203868</color>
+    <color name="camxxxxx">#d64425</color>
 </resources>

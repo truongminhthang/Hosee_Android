@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/nav_header_height"
-        android:background="@drawable/side_nav_bar"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        android:orientation="vertical"
-        android:gravity="bottom">
-
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            app:srcCompat="@mipmap/ic_launcher_round"
-            android:contentDescription="@string/nav_header_desc"
-            android:id="@+id/imageView"/>
-
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:background="@color/backgroundHeader"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="115dp" android:layout_height="115dp"
+                                                  android:src="@drawable/person"
+                                                  app:layout_constraintEnd_toEndOf="parent"
+                                                  app:layout_constraintStart_toStartOf="parent"
+                                                  app:layout_constraintTop_toTopOf="parent"
+                                                  android:layout_marginTop="80dp" android:id="@+id/circleImageView"/>
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="30dp" android:layout_height="30dp"
+                                                  android:src="@drawable/crown"
+                                                  android:background="@drawable/backgroundvip"
+                                                  app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+                                                  app:layout_constraintStart_toStartOf="@+id/circleImageView"
+                                                  app:layout_constraintHorizontal_bias="0.858"
+                                                  android:layout_marginBottom="12dp"
+                                                  app:layout_constraintBottom_toTopOf="@+id/textView"/>
     <TextView
-            android:layout_width="match_parent"
+            android:text="@string/h"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:text="@string/nav_header_title"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
-
+            android:id="@+id/textView" android:textSize="20sp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" android:textAlignment="center"
+            android:textColor="@color/white"/>
     <TextView
-            android:layout_width="wrap_content"
+            android:text="@string/i_m_106789"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/nav_header_subtitle"
-            android:id="@+id/textView"/>
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView2" android:gravity="center" android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="8dp"
+            android:textAllCaps="false" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="24dp" android:textColor="@color/white"/>
 
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
