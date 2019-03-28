@@ -1,16 +1,19 @@
 <resources>
-    <string name="app_name">Hosee</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="i_m_106789">Điểm: 106789</string>
+    <string name="h">Hà</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">SlideShow</string>
+    <string name="manage">Manage</string>
     <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="app_name">ProjectxD</string>
+    <string name="xxx"></string>
+    <string name="ng">Đồng ý</string>
+    <string name="c_gi_o_th_o">Cô Giáo Thảo</string>
+    <string name="_0969696969">0969696969</string>
+    <string name="ho_n_th_nh_d_ch_v">Đã hoàn thành dịch vụ</string>
+    <string name="_500_000_vn">500.000 VNĐ</string>
+    <string name="Hosee">Hosee</string>
 </resources>
