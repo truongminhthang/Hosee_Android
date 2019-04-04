@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="text_bbookingaccept">Cô Giáo Thảo</string>
-    <string name="sdt_bookingaccept">0969696969</string>
-    <string name="accept_bookingaccept">Đã hoàn thành dịch vụ</string>
-    <string name="vnd_bookingaccept">500.000 VNĐ</string>
-    <string name="agree_bookingaccept">Đồng ý</string>
-    <string name="booking_texmoney">Tiền Mặt</string>
-</resources>

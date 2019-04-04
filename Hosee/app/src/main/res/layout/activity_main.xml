@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:openDrawer="start">
+        tools:openDrawer="start" >
 
     <include
             layout="@layout/app_bar_main"
@@ -15,16 +15,14 @@
             android:layout_height="match_parent"/>
 
     <com.google.android.material.navigation.NavigationView
+            app:itemTextAppearance="@style/MenuItems"
             android:id="@+id/nav_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
-            android:background="@color/background_navgationView_buttonaccept_civ_buttoncalcel"
-            app:itemTextAppearance="@style/MenuItems"
-            app:itemTextColor="@color/white100"
-            app:itemIconTint="@color/white100"
+            android:background="@color/backgroundNav"
             app:headerLayout="@layout/nav_header_main"
-            app:menu="@menu/activity_main_drawer"/>
+            app:menu="@menu/activity_main_drawer" app:itemTextColor="@android:color/white" app:itemIconTint="@color/white"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
