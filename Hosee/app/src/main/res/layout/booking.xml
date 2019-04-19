@@ -20,7 +20,7 @@
                                                   app:layout_constraintVertical_bias="0.658"
                                                   android:id="@+id/circleImageView2"/>
     <TextView
-            android:text="@string/c_gi_o_th_o"
+            android:text="Nguyễn Thị Loan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView3" android:textSize="30sp" app:layout_constraintStart_toStartOf="@+id/textView4"
@@ -29,7 +29,7 @@
             app:layout_constraintTop_toBottomOf="@+id/circleImageView2"
             app:layout_constraintBottom_toTopOf="@+id/textView4"/>
     <TextView
-            android:text="@string/_0969696969"
+            android:text="0969696969"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView4" android:textSize="20sp"
@@ -38,7 +38,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:gravity="center" android:textColor="@color/white"
             android:textAllCaps="false"/>
     <TextView
-            android:text="@string/ho_n_th_nh_d_ch_v"
+            android:text="@string/service_done"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView6" android:textSize="24sp" app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -48,7 +48,7 @@
             app:layout_constraintBottom_toTopOf="@+id/textView7" app:layout_constraintVertical_bias="0.428"
     />
     <TextView
-            android:text="@string/_500_000_vn"
+            android:text="500.000 VND"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView7" android:textSize="30sp"
@@ -57,7 +57,7 @@
             android:gravity="center" android:fontFamily="sans-serif-medium"
             android:layout_marginBottom="36dp" app:layout_constraintBottom_toTopOf="@+id/ratingBar"/>
     <Button
-            android:text="@string/ng"
+            android:text="@string/user"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:id="@+id/button" app:layout_constraintStart_toStartOf="parent"

@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:theme="@style/AppTheme.AppBarOverlay" android:background="@color/design_default_color_primary">
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:background="@color/design_default_color_primary">
 
     </com.google.android.material.appbar.AppBarLayout>
     <include layout="@layout/content_main"/>
@@ -18,5 +18,33 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/AppTheme.PopupOverlay" android:background="@color/backgroundHeader"/>
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:background="@color/colorPrimary">
+        <LinearLayout
+                android:id="@+id/llTransport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:background="@color/colorPrimaryDark">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/select_working_type_textView"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_working_type"
+                    android:textSize="@dimen/text_title" android:textColor="@color/white"/>
+
+            <ImageView
+                    android:layout_width="14dp"
+                    android:id="@+id/img_toolbar_main"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_arrow_down"
+                    android:background="@null"
+                    android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -22,8 +22,7 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         super.onCreate(savedInstanceState)
         setContentView(com.example.projectxd.R.layout.activity_main)
         setSupportActionBar(toolbar)
-//        showDetails()
-
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, com.example.projectxd.R.string.navigation_drawer_open, com.example.projectxd.R.string.navigation_drawer_close
@@ -34,27 +33,6 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
         nav_view.setNavigationItemSelectedListener(this)
     }
-//    var count = 0
-//    fun showDetails() {
-//        val thread = object : Thread() {
-//
-//            override fun run() {
-//                try {
-//                    while (!this.isInterrupted) {
-//                        Thread.sleep(1000)
-//                        runOnUiThread {
-//                            // update TextView here!
-//                        }
-//                    }
-//                } catch (e: InterruptedException) {
-//                }
-//
-//            }
-//        }
-//
-//        thread.start()
-//    }
-
 
 
 
@@ -66,30 +44,12 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         }
 
     }
-//
-//    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        menuInflater.inflate(R.menu.activity_drawer_main, menu)
-//        return true
-//    }
-//
-//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        when (item.itemId) {
-////            R.id.action_settings -> return true
-//            else -> return super.onOptionsItemSelected(item)
-//        }
-//    }
+
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
-
         when (item.itemId) {
             R.id.nav_history -> {
-
-                // Handle the camera action
             }
 
             R.id.nav_notification -> {

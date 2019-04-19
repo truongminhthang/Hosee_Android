@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00BCD4</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#1f3868</color>
+    <color name="colorPrimaryDark">#3866be</color>
     <color name="notification">#DC4D29</color>
     <color name="backgroundHeader">#4272C5</color>
     <color name="white">#FFFFFF</color>
@@ -14,4 +14,5 @@
     <color name="den">#404040</color>
     <color name="xanh111">#203868</color>
     <color name="camxxxxx">#d64425</color>
+    <color name="select_working_type_color"></color>
 </resources>
